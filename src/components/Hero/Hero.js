@@ -9,13 +9,14 @@ const Hero = (props) => (
     <Section row nopadding>
       <LeftSection>
         <SectionTitle main center>
-          Welcome To <br />
-          My Personal Portfolio
+          Gabriel Guevara's<br />
+          Portfolio
         </SectionTitle>
         <SectionText>
-        The purpose of JavaScript Mastery is to help aspiring and established developers to take their development skills to the next level and build awesome apps.
+        Hi there! My name is <b> Gabriel Guevara</b> 
+        <br/>I’m passionate about using programming to solve problems and innovativing digital products to help people do amazing things.
         </SectionText>
-        <Button onClick={props.handleClick}>Learn More</Button>
+        <Button onClick={props.handleClick}>e-mail Gabriel</Button>
       </LeftSection>
     </Section>
   </>
