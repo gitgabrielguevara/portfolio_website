@@ -14,7 +14,7 @@ const Hero = (props) => (
         </SectionTitle>
         <SectionText>
         Hi there! My name is <b> Gabriel Guevara</b> 
-        <br/>I’m passionate about using programming to solve problems and innovativing digital products to help people do amazing things.
+        <br/>I’m passionate about using programming to solve problems and innovating digital products to help people do amazing things.
         </SectionText>
         <Button onClick={props.handleClick}>e-mail Gabriel</Button>
       </LeftSection>
