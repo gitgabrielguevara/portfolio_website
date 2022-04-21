@@ -1,7 +1,7 @@
 export const projects = [
   {
     title: 'MERN Stack',
-    description: "Using React, Node.js, Express & MongoDB you'll learn how to build a Full Stack MERN Application - from start to finish. The App is called Memories and it is a simple social media app that allows users to post interesting events that happened in their lives.",
+    description: "Using React, Node.js, Express & MongoDB we built a Full Stack MERN Application - from start to finish. The App is called Develup and it is a simple education app that allows users to study and create web-based.",
       image: '/images/1.png',
       tags: ['Mongo', 'Express', 'React', 'Node'],
     source: 'https://google.com',
@@ -10,16 +10,16 @@ export const projects = [
   },
   {
     title: 'Database API',
-    description:"While building it you're going to learn many advanced React & JavaScript topics, as well as how to use Stripe for card transactions. On top of that, at the end of the video, you will have this unique and complex webshop app that you will be able to add to your portfolio. And trust me, e-commerce applications are impressive.",
-    image: '/images/2.png',
-    tags: ['React', 'JavaScript'],
-    source: 'https://google.com',
+    description:"The primary technologies used are Node and Express. This project called Market Watch is a three tier web-application that incorporates a client, server, and database server.",
+    image: '/images/erd-MarketWatch.png',
+    tags: ['Node', 'Express'],
+    source: 'https://github.com/gitgabrielguevara/Market-Watch',
     visit: 'https://google.com',
     id: 1,
   },
   {
     title: 'CRUDing App',
-    description: "This is a code repository for the corresponding YouTube video. In this tutorial, we're going to build and deploy a React Video Chat Application using WebRTC.",
+    description: "This is a project that allows the user to make their To-do list.",
       image: '/images/3.jpg',
       tags: ['React', 'WebRTC'],
     source: 'https://google.com',
@@ -28,9 +28,9 @@ export const projects = [
   },
   {
     title: 'E-Commerce',
-    description: "This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application",
+    description: "This project is a web-based application to help young families make affordable living will and trust.",
     image: '/images/4.jpg',
-    tags: ['React', 'ChatEngine', 'Firebase'],
+    tags: ['Javascript', 'PostgreSQL', 'React'],
     source: 'https://google.com',
     visit: 'https://google.com',
     id: 3,
