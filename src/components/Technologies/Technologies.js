@@ -1,5 +1,5 @@
 import React from 'react';
-import { DiCss3, DiFirebase, DiHtml5, DiJavascript1, DiMongodb, DiNodejsSmall, DiNpm, DiPostgresql, DiPython, DiReact, DiZend } from 'react-icons/di';
+import { DiCss3, DiDjango, DiFirebase, DiHtml5, DiJavascript1, DiMongodb, DiNodejsSmall, DiNpm, DiPostgresql, DiPython, DiReact, DiZend } from 'react-icons/di';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
 
@@ -20,6 +20,7 @@ const Technologies = () =>  (
         <DiNodejsSmall size="5rem"/>
         <DiPostgresql size="5rem"/>
         <DiPython size="5rem"/>
+        <DiDjango size="5rem"/>
         <DiNpm size="5rem"/>
     </div>
 
