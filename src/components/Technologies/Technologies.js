@@ -1,5 +1,5 @@
 import React from 'react';
-import { DiFirebase, DiReact, DiZend } from 'react-icons/di';
+import { DiCss3, DiFirebase, DiHtml5, DiJavascript1, DiMongodb, DiNodejsSmall, DiNpm, DiPostgresql, DiPython, DiReact, DiZend } from 'react-icons/di';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
 
@@ -11,6 +11,18 @@ const Technologies = () =>  (
       I've worked with a range of technologies in the web development world.
       From Back-end To Design
     </SectionText>
+    <div>
+        <DiHtml5 size="5rem"/>
+        <DiJavascript1 size="5rem"/>
+        <DiCss3 size="5rem"/>
+        <DiReact size="5rem"/>
+        <DiMongodb size="5rem"/>
+        <DiNodejsSmall size="5rem"/>
+        <DiPostgresql size="5rem"/>
+        <DiPython size="5rem"/>
+        <DiNpm size="5rem"/>
+    </div>
+
     <List>
       <ListItem>
         <picture>
@@ -20,7 +32,7 @@ const Technologies = () =>  (
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
             Experiece with <br />
-            React.js Next.js
+            React and Next
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -44,7 +56,7 @@ const Technologies = () =>  (
           <ListTitle>UI/UX</ListTitle>
           <ListParagraph>
             Experience with <br />
-            tools like Figma
+            Figma amd Trello
           </ListParagraph>
         </ListContainer>
       </ListItem>

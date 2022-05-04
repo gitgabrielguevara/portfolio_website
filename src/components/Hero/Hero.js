@@ -1,4 +1,5 @@
 import React from 'react';
+import { LinkItem } from './HeroStyles';
 
 import { Section, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import Button from '../../styles/GlobalComponents/Button';
@@ -16,7 +17,9 @@ const Hero = (props) => (
         Hi there! My name is <b> Gabriel Guevara</b> 
         <br/>I’m passionate about using programming to solve problems and innovating digital products to help people do amazing things.
         </SectionText>
-        <Button href="mailto:guevara.a.gabriel@gmail.com" onClick={props.handleClick}>contact Gabriel</Button>
+        <LinkItem href="mailto:guevara.a.gabriel@gmail.com">
+          <Button>contact Gabriel</Button>    
+        </LinkItem>
       </LeftSection>
     </Section>
   </>
