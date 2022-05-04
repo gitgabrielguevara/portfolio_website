@@ -39,8 +39,6 @@ const Header = () =>  (
         <SocialIcons href="https://www.linkedin.com/in/gabriel-guevara-fullstack/">
           <AiFillLinkedin size="3rem" />
         </SocialIcons>
-        {/* <img src="/images/resume.png" href="https://google.com"/> */}
-          {/* <AiFillInstagram size="3rem"/> */}
       </Div3>
     </Container>
 );

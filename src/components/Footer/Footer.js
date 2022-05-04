@@ -18,7 +18,7 @@ const Footer = () => {
             guevara.a.gabriel@gmail.com
           </LinkItem>
         </LinkColumn>
-      </LinkList>
+      </LinkList> 
       <SocialIconsContainer>
         <CompanyContainer>
           <Slogan>© Gabriel Guevara {new Date().getFullYear()} ⟐ Innovating one project at a time ⟐</Slogan>
@@ -30,9 +30,6 @@ const Footer = () => {
           <SocialIcons href="https://www.linkedin.com/in/gabriel-guevara-fullstack/">
             <AiFillLinkedin size="3rem" />
           </SocialIcons>
-          {/* <SocialIcons href="https://google.com">
-            <AiFillInstagram size="3rem" />
-          </SocialIcons> */}
         </SocialContainer>
       </SocialIconsContainer>
     </FooterWrapper>
