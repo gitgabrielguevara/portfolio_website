@@ -35,8 +35,8 @@ export const projects = [
       "This project allows the user to make their To-do list. They can update their future events and post their memmories. A new user can create an account and record their actions. The code exhibits one to many and many to many relationships.",
     image: "/images/1.png",
     tags: ["React", "HTML", "CSS"],
-    source: "https://google.com",
-    visit: "https://google.com",
+    source: "https://github.com/gitgabrielguevara/bank-marketing",
+    visit: "https://gitgabrielguevara.github.io/bank-marketing/",
     id: 3,
   },
 ];
