@@ -24,7 +24,7 @@ export const projects = [
     description:
       "The primary technologies used are Node and Express. This project called Market Watch is a three tier web-application that incorporates a client, server, and database server.",
     image: "/images/Bank-marketing.png",
-    tags: ["Node", "Express"],
+    tags: ["Javascript", "Node", "Express"],
     source: "https://gitgabrielguevara.github.io/bank-marketing/",
     visit: "https://github.com/gitgabrielguevara/bank-marketing",
     id: 2,
